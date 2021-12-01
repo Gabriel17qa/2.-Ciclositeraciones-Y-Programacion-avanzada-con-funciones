@@ -5,18 +5,11 @@ let numero = 0;
 if(nombre)
 {
  alert(' Hola ' + nombre + ' espero te encuentre muy bien en este dia' )
-
-   
-}else{
-
+ }else{
     alert('Por favor ingrese su nombre para que validemos su identidad')
-    
-}
+    }
 
 edad = prompt('Eres mayor de edad')
-
-
-
     if(edad < 21){
 
         alert('NO PUEDES INGRESAR POR SER MENOR DE EDAD')
@@ -28,11 +21,9 @@ edad = prompt('Eres mayor de edad')
 
     }
     
-
     function calculadora(numero, operacion) {
 
-    
-        switch (operacion) {
+            switch (operacion) {
             case "10%":
                 return numero * 0.10;
                 break;
